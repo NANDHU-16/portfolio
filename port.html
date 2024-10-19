@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nandhu's Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        /* Header */
+        header {
+            background-color: #1d3557;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background-color: #e63946;
+            display: block;
+            margin: 20px auto 0;
+        }
+
+        /* Navigation */
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #1d3557;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: #f1faee;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #a8dadc;
+        }
+
+        /* About Section */
+        section#about {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+            color: #1d3557;
+        }
+
+        section#about p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 20px auto 0;
+        }
+
+        /* Projects Section */
+        section#projects {
+            padding: 60px 20px;
+            background-color: #f5f7fa;
+            text-align: center;
+        }
+
+        section#projects h2 {
+            color: #1d3557;
+        }
+
+        .project {
+            margin: 30px 0;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .project h3 {
+            margin-bottom: 15px;
+            color: #e63946;
+        }
+
+        /* Contact Section */
+        section#contact {
+            padding: 60px 20px;
+            background-color: #1d3557;
+            color: #fff;
+            text-align: center;
+        }
+
+        section#contact p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            color: #fff;
+            font-size: 1.2em;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #e63946;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries for Mobile */
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.8em;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section#about p, section#projects, section#contact p {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nandhu's Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm M Nandakkumar, from the dept of AIML. Passionate about building AI-driven applications and web development.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1: Personal Blog</h3>
+        <p>A personal blog using HTML, CSS, and JavaScript where users can read, write, and comment on blog posts.</p>
+    </div>
+    <div class="project">
+        <h3>Project 2: Portfolio Website</h3>
+        <p>A modern, responsive portfolio website designed to showcase my projects and skills. Built with HTML and CSS.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to email me at <strong>nandakkumar.al22@bitsathy.ac.in</strong>.</p>
+    <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Nandakkumar's Portfolio</p>
+</footer>
+
+</body>
+</html>
